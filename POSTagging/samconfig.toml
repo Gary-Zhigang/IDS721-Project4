@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "POSTaggingStack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-4nmjdmj68xpe"
+s3_prefix = "POSTaggingStack"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = ["HelloWorldFunction=492853569777.dkr.ecr.us-east-1.amazonaws.com/pos-tagging-repo"]
