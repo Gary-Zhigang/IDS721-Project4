@@ -10,6 +10,18 @@ POS (Part-of-Speech) Tagging is a process in NLP that involves marking each word
 
 <img src="https://1.bp.blogspot.com/-spGNcdlw7g4/XHY5fS25uVI/AAAAAAAABqY/63lfyQFHkl4rf1ls0vvLIBRRc8TEsBZvgCLcBGAs/s1600/Capture.PNG" alt="Your image description" width="800" height="300">
 
+## What I did so far
+
+I finished the basic build and deploy of AWS lambda, and in the future I will implement the POSTagging feature and complete the whole project
+
+***AWS Lambda***
+
+<img src="https://github.com/Gary-Zhigang/IDS721-Project4/blob/main/images/p2.png" alt="Your image description" width="800" height="600">
+
+***Test Result***
+
+<img src="https://github.com/Gary-Zhigang/IDS721-Project4/blob/main/images/p2.png" alt="Your image description" width="800" height="300">
+
 ## Build and Deploy
 
 1.  `sam init`
