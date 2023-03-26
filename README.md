@@ -16,11 +16,11 @@ I finished the basic build and deploy of AWS lambda, and in the future I will im
 
 ***AWS Lambda***
 
-<img src="https://github.com/Gary-Zhigang/IDS721-Project4/blob/main/images/p2.png" alt="Your image description" width="800" height="600">
+<img src="https://github.com/Gary-Zhigang/IDS721-Project4/blob/main/images/p2.png" alt="Your image description" width="800" height="400">
 
 ***Test Result***
 
-<img src="https://github.com/Gary-Zhigang/IDS721-Project4/blob/main/images/p2.png" alt="Your image description" width="800" height="300">
+<img src="https://github.com/Gary-Zhigang/IDS721-Project4/blob/main/images/p1.png" alt="Your image description" width="800" height="300">
 
 ## Build and Deploy
 
