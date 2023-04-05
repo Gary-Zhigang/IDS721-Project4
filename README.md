@@ -12,19 +12,20 @@ POS (Part-of-Speech) Tagging is a process in NLP that involves marking each word
 
 ## What I did so far
 
-I finished the basic build and deploy of AWS lambda, and in the future I will implement the POSTagging feature and complete the whole project
+I finished the build and deploy of AWS lambda and implemented the POSTagging function, also tested the function in AWS Lambda.
 
-***AWS Lambda***
+***AWS Lambda Test***
 
-<img src="https://github.com/Gary-Zhigang/IDS721-Project4/blob/main/images/p2.png" alt="Your image description" width="800" height="400">
+<img src="https://github.com/Gary-Zhigang/IDS721-Project4/blob/main/images/p4.png" alt="Your image description" width="800" height="400">
 
-***Test Result***
+***Local Test Result***
 
-<img src="https://github.com/Gary-Zhigang/IDS721-Project4/blob/main/images/p1.png" alt="Your image description" width="800" height="300">
+<img src="https://github.com/Gary-Zhigang/IDS721-Project4/blob/main/images/p3.png" alt="Your image description" width="800" height="300">
 
-## Build and Deploy
+## Build, Deploy and Invoke
 
 1.  `sam init`
 2.  `sam build`
 3.  `sam deploy --guided`
+4.  `sam local invoke -e payload.json`
 
