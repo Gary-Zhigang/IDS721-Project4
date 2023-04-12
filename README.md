@@ -1,5 +1,3 @@
-[![CircleCI](https://circleci.com/gh/noahgift/functional_intro_to_python.svg?style=svg&circle-token=d3ccec4d9ec6d4f1052ec528e22dc26554502cde)](https://circleci.com/gh/noahgift/awslambda)
-
 # IDS721-Project4
 
 This is the individual project4 for the course IDS721. In this project, I plan to use AWS Lambda to implement a basic serverless data engineering system that leverages an NLP technique called POS (Part-of-Speech) Tagging for its functionality.
@@ -10,9 +8,7 @@ POS (Part-of-Speech) Tagging is a process in NLP that involves marking each word
 
 <img src="https://1.bp.blogspot.com/-spGNcdlw7g4/XHY5fS25uVI/AAAAAAAABqY/63lfyQFHkl4rf1ls0vvLIBRRc8TEsBZvgCLcBGAs/s1600/Capture.PNG" alt="Your image description" width="800" height="300">
 
-## What I did so far
-
-I finished the build and deploy of AWS lambda and implemented the POSTagging function, also tested the function in AWS Lambda.
+## Serverless System Test
 
 ***AWS Lambda Test***
 
@@ -27,5 +23,12 @@ I finished the build and deploy of AWS lambda and implemented the POSTagging fun
 1.  `sam init`
 2.  `sam build`
 3.  `sam deploy --guided`
-4.  `sam local invoke -e payload.json`
+4.  `sam local invoke -e payload.json`  
+
+***payload.json example***
+```
+{
+  "sentence": "How are you doing today?"
+}
+```
 
