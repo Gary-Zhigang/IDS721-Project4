@@ -1,6 +1,6 @@
 # IDS721-Project4
 
-This is the individual project4 for the course IDS721. In this project, I plan to use AWS Lambda to implement a basic serverless data engineering system that leverages an NLP technique called POS (Part-of-Speech) Tagging for its functionality.
+This is the individual project4 for the course IDS721. In this project, I used AWS Lambda to implement a basic serverless data engineering system that leverages an NLP technique called POS (Part-of-Speech) Tagging for its functionality.
 
 ## POS Tagging Introduction
 
@@ -10,13 +10,13 @@ POS (Part-of-Speech) Tagging is a process in NLP that involves marking each word
 
 ## Serverless System Test
 
-***AWS Lambda Test***
-
-<img src="https://github.com/Gary-Zhigang/IDS721-Project4/blob/main/images/p4.png" alt="Your image description" width="800" height="400">
-
 ***Local Test Result***
 
 <img src="https://github.com/Gary-Zhigang/IDS721-Project4/blob/main/images/p3.png" alt="Your image description" width="800" height="300">
+
+***AWS Lambda Test***
+
+<img src="https://github.com/Gary-Zhigang/IDS721-Project4/blob/main/images/p4.png" alt="Your image description" width="800" height="400">
 
 ## Build, Deploy and Invoke
 
